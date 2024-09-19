@@ -1,39 +1,33 @@
-# PlanBub 项目
+# PlanBub Project
 
-## 项目简介
+## Project Overview
 
-**PlanBub** 是一个基于个人需求自动筛选工作机会的工具，旨在帮助用户高效获取符合自身条件的职位推荐。初期阶段通过 API 抓取多个招聘平台的工作数据，后期将引入 AI 模型来筛选和强化数据分析，以实现更加智能的职位匹配。
+**PlanBub** is a tool designed to automatically filter job opportunities based on individual preferences, helping users efficiently find jobs that match their specific criteria. In the initial phase, the project will gather job data from multiple platforms using APIs, and in later stages, AI models will be integrated to enhance data filtering and analysis, leading to smarter job recommendations.
 
-## 项目目标
+## Project Goals
 
-- 为用户提供个性化的工作推荐。
-- 利用 AI 模型优化职位筛选，确保推荐的工作符合用户的具体需求。
-- 持续优化和扩展，以适应不同平台和用户需求的变化。
+- Provide personalized job recommendations based on user input.
+- Utilize AI models to optimize job filtering and ensure the best-fit job matches.
+- Continuously improve and expand the system to adapt to different platforms and user needs.
 
-## 功能特色
+## Key Features
 
-- **API 数据抓取**: 调用多个招聘平台的 API，收集实时职位信息。
-- **AI 筛选**: 通过机器学习模型分析和筛选最符合用户需求的职位。
-- **个性化推荐**: 用户输入需求后，系统根据匹配度提供最佳职位推荐。
-- **扩展性**: 系统支持未来的扩展和优化，适应更多平台的数据抓取和用户需求变化。
+- **API Data Collection**: Fetch real-time job data from multiple job platforms using APIs.
+- **AI Filtering**: Analyze and filter job postings with machine learning models to match user preferences.
+- **Personalized Recommendations**: After inputting their job requirements, users will receive the best job matches.
+- **Scalability**: The system supports future expansion and optimization to accommodate more platforms and changing user needs.
 
-## 开发路线图
+## Development Roadmap
 
-1. **阶段 1**: 搭建基础架构，通过 API 获取数据。
-2. **阶段 2**: 实现基础职位筛选功能，集成初步 AI 模型。
-3. **阶段 3**: 优化筛选算法，提高职位推荐的精度。
-4. **阶段 4**: 用户界面优化，增加更多功能和平台支持。
+1. **Phase 1**: Set up the project infrastructure and gather data through APIs.
+2. **Phase 2**: Implement basic job filtering functionality and integrate an initial AI model.
+3. **Phase 3**: Optimize filtering algorithms to improve job recommendation accuracy.
+4. **Phase 4**: Enhance the user interface and add more features and platform support.
 
-## 技术栈
+## Tech Stack
 
-- **前端**: Flutter（计划使用）
-- **后端**: Node.js + Express / AWS（计划使用）
-- **数据库**: MongoDB / PostgreSQL（待定）
-- **机器学习**: TensorFlow / PyTorch（待定）
-- **API**: 支持多平台职位数据抓取（如 LinkedIn、Indeed 等）
-
-## 项目安装与运行
-
-### 克隆项目
-```bash
-git clone https://github.com/你的用户名/PlanBub.git
+- **Frontend**: Flutter (planned)
+- **Backend**: Node.js + Express / AWS (planned)
+- **Database**: MongoDB / PostgreSQL (TBD)
+- **Machine Learning**: TensorFlow / PyTorch (TBD)
+- **APIs**: Support for multiple job platforms (e.g., LinkedIn, Indeed)

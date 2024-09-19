@@ -1,33 +1,40 @@
-# PlanBub Project
+# 泡计划 - 开发日志
 
-## Project Overview
+## 日期: 2024-09-18
 
-**PlanBub** is a tool designed to automatically filter job opportunities based on individual preferences, helping users efficiently find jobs that match their specific criteria. In the initial phase, the project will gather job data from multiple platforms using APIs, and in later stages, AI models will be integrated to enhance data filtering and analysis, leading to smarter job recommendations.
+### 今日任务
 
-## Project Goals
+1. 讨论并确定了泡计划的项目名称和大致方向。
+2. 分析了 VoltVivi 项目的现状，并决定暂时搁置。
+3. 规划了泡计划的初步策略，决定使用 API 抓取数据，逐步转向 AI 模型进行数据处理。
 
-- Provide personalized job recommendations based on user input.
-- Utilize AI models to optimize job filtering and ensure the best-fit job matches.
-- Continuously improve and expand the system to adapt to different platforms and user needs.
+### 今日进展
 
-## Key Features
+- **项目方向**：确定泡计划将是一个帮助自己寻找工作的工具，初期使用 API 抓取数据，后期使用 AI 模型来筛选和强化数据。
+- **VoltVivi 项目**：分析了 VoltVivi 域名的费用和当前的心理负担，决定暂时不继续推进 VoltVivi，避免压力过大。
+- **工具选择**：讨论了如何记录开发日志，并最终确定每天一个文件的日志格式，便于未来回顾项目进展。
 
-- **API Data Collection**: Fetch real-time job data from multiple job platforms using APIs.
-- **AI Filtering**: Analyze and filter job postings with machine learning models to match user preferences.
-- **Personalized Recommendations**: After inputting their job requirements, users will receive the best job matches.
-- **Scalability**: The system supports future expansion and optimization to accommodate more platforms and changing user needs.
+### 问题与挑战
 
-## Development Roadmap
+- **VoltVivi 项目的压力**：我意识到自己对 VoltVivi 项目产生了恐惧心理，觉得它带来的压力过大，暂时不适合继续进行。
+- **泡计划的可持续性**：在泡计划中如何保证长期使用工具并且不依赖于外部平台，仍需进一步研究如何平衡 API 和 AI 模型的使用。
 
-1. **Phase 1**: Set up the project infrastructure and gather data through APIs.
-2. **Phase 2**: Implement basic job filtering functionality and integrate an initial AI model.
-3. **Phase 3**: Optimize filtering algorithms to improve job recommendation accuracy.
-4. **Phase 4**: Enhance the user interface and add more features and platform support.
+### 今日心理问题
 
-## Tech Stack
+1. 在立项过程中，担心太简单就放弃，太复杂又怕放弃的纠结。**解决方法**：看自己真的需要什么，简单就简单，复杂就复杂，不能完全跟着感觉走。
+2. 过去未完成的项目，特别是曾未能达成对喜欢女生的期许，带来了心理负担。**反思**：重点在于坚持过程，而不是最终结果。
+3. 害怕项目无法带来价值，比如该项目已经被别人实现。**解决思路**：项目的意义在于自己获得满足感。如果已经存在类似项目，可以考虑合作，而不是因为别人做了就放弃。
 
-- **Frontend**: Flutter (planned)
-- **Backend**: Node.js + Express / AWS (planned)
-- **Database**: MongoDB / PostgreSQL (TBD)
-- **Machine Learning**: TensorFlow / PyTorch (TBD)
-- **APIs**: Support for multiple job platforms (e.g., LinkedIn, Indeed)
+### 明日计划
+
+1. 创建github
+2. 设立泡计划的开发环境和基本项目架构。
+
+### 心态总结
+
+- 今天我理清了很多项目相关的困惑，尤其是对 VoltVivi 项目的心理负担。感觉稍微放松了一些，同时对泡计划感到了一些新的动力。
+- 接下来的重点是保持平衡，不让新的项目再次变成过度的心理负担，同时在每周汇报中注重心态管理和成长。
+
+---
+
+**总结**: 今天主要确定了泡计划的方向，并清晰地分离了 VoltVivi 项目的压力，开始规划新的项目路线
