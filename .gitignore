@@ -1,0 +1,8 @@
+# Ignore virtual environment
+venv/
+
+# Ignore cookies.json file
+cookies.json
+
+# Ignore Python cache files
+__pycache__/
